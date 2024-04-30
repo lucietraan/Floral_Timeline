@@ -1,0 +1,219 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f7f0e4;
+}
+
+.wrapper {
+  margin: 0px;
+  padding: 0px;
+  background: #f7f0e4;
+  max-height: 100vh;
+  border: none;
+  overflow-x: auto;
+  display: flex;
+}
+
+.wrapper .panel {
+  position: relative;
+  min-width: 500px;
+  height: 100vh;
+}
+
+.title {
+  margin-top: 130px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  /* font-size: 36pt; */
+  font-size: 5vh;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+}
+
+.subtitle {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 80px;
+  /* font-size: 10pt; */
+  font-size: 1.55vh;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-align: justify;
+}
+
+.para {
+  margin-bottom: 8px;
+}
+
+.panel {
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.month {
+  /* font-size: 24pt; */
+  font-size: 3.5vh;
+  margin-top: 50px;
+}
+
+.flowername {
+  /* font-size: 16pt; */
+  font-size: 2.5vh;
+}
+
+.head2 {
+  margin-right: 15px;
+  margin-top: 94px;
+  text-align: right;
+}
+
+.flowersubtitle {
+  margin-right: 170px;
+  font-size: 1.55vh;
+}
+
+.credit {
+  font-size: 1.3vh;
+}
+.illustration {
+  display: inline;
+}
+
+.jan-name {
+  color: rgb(233, 122, 122);
+}
+
+.feb-name {
+  color: rgb(201, 116, 201);
+}
+
+.mar-name {
+  color: rgb(135, 102, 83);
+}
+
+.apr-name {
+  color: rgb(250, 188, 32);
+}
+
+.may-name {
+  color: rgb(193, 68, 68);
+}
+
+.jun-name {
+  color: lightcoral;
+}
+
+.jul-name {
+  color: rgb(250, 188, 32);
+}
+
+.aug-name {
+  color: rgb(237, 139, 53);
+}
+
+.sep-name {
+  color: darkseagreen;
+}
+
+.oct-name {
+  color: rgb(255, 191, 0);
+}
+
+.nov-name {
+  color: rgb(163, 116, 223);
+}
+
+.dec-name {
+  color: rgb(255, 191, 0);
+}
+
+.january {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 2s;
+}
+
+.february {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 4s;
+}
+
+.march {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 6s;
+}
+
+.april {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 8s;
+}
+
+.may {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 10s;
+}
+
+.june {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 12s;
+}
+
+.july {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 14s;
+}
+
+.august {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 16s;
+}
+
+.september {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 18s;
+}
+
+.october {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 20s;
+}
+
+.november {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 22s;
+}
+
+.december {
+  opacity: 0;
+  animation: appear 2s forwards;
+  animation-delay: 24s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.makebeige {
+  color: #f7f0e4;
+}
